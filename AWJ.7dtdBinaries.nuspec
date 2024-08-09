@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>AWJ.7dtdBinaries</id>
+    <version>1.0.3</version>
+    <description>Reference Assemblies for 7 Days to Die Mods</description>
+    <authors>Aaron Jacobson</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <readme>README.md</readme>
+    <releaseNotes>updated for 7 Days to Die v1.1(B4)</releaseNotes>
+    <copyright></copyright>
+    <tags>7DaysToDie</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+    </dependencies>
+  </metadata>
+</package>
