@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package >
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>AWJ.7dtdBinaries</id>
-    <version>1.0.3</version>
+    <version>1.2.0</version>
     <description>Reference Assemblies for 7 Days to Die Mods</description>
     <authors>Aaron Jacobson</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
+    <projectUrl>https://github.com/awjacobson/AWJ.7dtdBinaries</projectUrl>
+    <repository type="git" url="https://github.com/awjacobson/AWJ.7dtdBinaries" />
     <readme>README.md</readme>
-    <releaseNotes>updated for 7 Days to Die v1.1(B4)</releaseNotes>
+    <releaseNotes>updated for 7 Days to Die v1.2(B27)</releaseNotes>
     <copyright></copyright>
     <tags>7DaysToDie</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.0" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="README.md" target="" />
+    <file src="lib\net40\Assembly-CSharp.dll" target="lib\net40" />
+    <file src="lib\net40\LogLibrary.dll" target="lib\net40" />
+  </files>
 </package>
